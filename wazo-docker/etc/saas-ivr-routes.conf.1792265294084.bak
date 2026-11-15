@@ -1,0 +1,10 @@
+; SaaS-managed IVR routes
+; Managed by the SaaS backend. Do not edit manually.
+
+[ctx-ConfigLLC-internal-c9bf3ee4-6cef-49b7-b699-b0a61dd059b6]
+exten => 7002,1,Goto(xivo-ivr-5,s,1)
+exten => 7003,1,Goto(xivo-ivr-5,s,1)
+
+[ctx-Khasorg-internal-e938d971-b236-4a29-b87f-15dc6c5d85a4]
+exten => 7001,1,Goto(xivo-ivr-4,s,1)
+
